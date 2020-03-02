@@ -15,6 +15,20 @@ def ifWon():
         print ("you win")
     else:
         getLetter()
+        
+def test():
+    global updatedWord
+    life = 6
+    if updatedWord == secret:
+        ifWon()
+    elif
+        lives=life-1
+        return lives
+        
+    else life = 0:
+        print=("you lost")         
+
+        
 def main():
     initialize ()
     getLetter ()
